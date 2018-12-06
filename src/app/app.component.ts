@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AlfianAziz-ProjectAkhir';
+  loadedFeature='beranda';
+onNavigate(feature:string){
+  this.loadedFeature=feature;
+}
 }
